@@ -1,0 +1,82 @@
+.herocontant p {
+  font-size: 1.5rem;
+  color: #333;
+}
+.herocontainer {
+  display: flex;
+  flex-direction: row;
+  gap: 10rem;
+  height: 90vh;
+  width: 70rem;
+  padding: 5rem 9rem;
+  background-color: var(--secondaryColor);
+}
+.herocontant h1 {
+  font-size: 3.5rem;
+}
+
+.heroimg {
+  width: 90%;
+}
+.button {
+  background-color: var(--primaryColor);
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1.3rem;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+.button:hover {
+  background-color: #b06320;
+}
+.button2 {
+  background-color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #333;
+  padding: 0.5rem 1.3rem;
+  border-radius: 1rem;
+}
+.button2:hover {
+  background-color: var(--secondaryColor);
+  border: 0.3rem solid #fff;
+}
+.content p {
+  font-size: 1.3rem;
+}
+.content p span {
+  font-weight: 700;
+  color: var(--primaryColor);
+}
+.contentimg {
+  display: flex;
+  flex-direction: row;
+}
+.contentimg img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: 0.2rem solid #fff;
+}
+.contentimg img:nth-child(2) {
+  margin-left: -1rem;
+}
+.contentimg img:nth-child(3) {
+  margin-left: -1rem;
+}
+.contentimg img:nth-child(4) {
+  margin-left: -1rem;
+}
+.contentimg img:nth-child(5) {
+  margin-left: -1rem;
+}
+.contentimg img:nth-child(6) {
+  margin-left: -1rem;
+}
+.content {
+  margin: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}

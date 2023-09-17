@@ -1,0 +1,145 @@
+.boss {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.starter {
+  border: 2px solid #fdf2e9;
+  border-radius: 0.5rem;
+  /* margin: 0 auto; */
+  box-sizing: border-box;
+  text-align: center;
+  padding: 3rem 3.5rem;
+}
+.complete {
+  background-color: #fdf2e9;
+  /* margin: 0 auto; */
+  text-align: center;
+  padding: 3rem 3.5rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  position: relative;
+}
+.complete::after {
+  content: "Best value";
+  position: absolute;
+  top: 6%;
+  right: -35%;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #333;
+  background-color: #ffd43b;
+  padding: 0.8rem 8rem;
+  transform: rotate(45deg);
+}
+.starter p:nth-child(1) {
+  color: #985214;
+  font-size: larger;
+  font-weight: 900;
+}
+.starter p:nth-child(2) {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.starter li:nth-child(1) {
+  font-size: larger;
+  color: rgb(66, 72, 72);
+  list-style: none;
+  text-align: left;
+  padding-top: 0.9rem;
+}
+.starter li:nth-child(2) {
+  font-size: larger;
+  color: rgb(66, 72, 72);
+  list-style: none;
+  text-align: left;
+  padding-top: 0.9rem;
+}
+.starter li:nth-child(3) {
+  font-size: larger;
+  color: rgb(66, 72, 72);
+  list-style: none;
+  text-align: left;
+  padding-top: 0.9rem;
+}
+.starter p:nth-child(3) {
+  font-size: larger;
+  color: rgb(66, 72, 72);
+}
+.starter a {
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: #985214;
+  border-radius: 1rem;
+  padding: 0.5rem 0.3rem;
+  text-decoration: none;
+  margin: 1.5rem;
+}
+.complete p:nth-child(1) {
+  color: #985214;
+  font-size: larger;
+  align-items: center;
+  font-weight: 900;
+}
+.complete p:nth-child(2) {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.complete p:nth-child(3) {
+  font-size: larger;
+  color: rgb(66, 72, 72);
+}
+.complete li:nth-child(1) {
+  font-size: larger;
+  color: rgb(66, 72, 72);
+  list-style: none;
+  text-align: left;
+  padding-top: 0.9rem;
+}
+.complete li:nth-child(2) {
+  font-size: larger;
+  color: rgb(66, 72, 72);
+  list-style: none;
+  text-align: left;
+  padding-top: 0.9rem;
+}
+.complete li:nth-child(3) {
+  font-size: larger;
+  color: rgb(66, 72, 72);
+  list-style: none;
+  text-align: left;
+  padding-top: 0.9rem;
+}
+.complete li:nth-child(4) {
+  font-size: larger;
+  color: rgb(66, 72, 72);
+  list-style: none;
+  text-align: left;
+  padding-top: 0.9rem;
+}
+.complete a {
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: #985214;
+  border-radius: 1rem;
+  padding: 0.5rem 0.3rem;
+  text-decoration: none;
+  margin: 1.5rem;
+}
+.tic {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+.tic1 {
+  font-size: 0.1rem;
+  width: 2rem;
+  color: #985214;
+}
+.boss1 p {
+  font-size: larger;
+  color: #996436;
+  font-weight: 800;
+  padding: 1rem 10rem;
+}

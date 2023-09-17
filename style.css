@@ -1,0 +1,9 @@
+:root{
+    --primaryColor:#e67e22;
+    --secondaryColor:#fdf2e9;
+    --primaryFontColor:#333;
+}
+body{
+    color: var(--primaryFontColor);
+    
+}

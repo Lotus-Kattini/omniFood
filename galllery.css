@@ -1,0 +1,47 @@
+.TESTIMONIALS {
+  display: flex;
+  flex-direction: row;
+  background-color: #fdf2e9;
+  padding: 3rem 2rem;
+}
+.img12 {
+  display: flex;
+  flex-direction: row;
+}
+.Dave_Bryson {
+  display: flex;
+  flex-direction: column;
+}
+.img1 {
+  /* width: 8rem; */
+  /* padding-bottom: 10rem; */
+  width: 6.4rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+.pic {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
+  /* width: 2rem;
+  height: 0.1rem; */
+}
+.pic1 {
+  transition: all 0.4s;
+  overflow: hidden;
+}
+.pic1:hover {
+  transform: scale(1.1);
+  overflow: hidden;
+}
+.talk p {
+  padding-left: 5rem;
+  color: #b06320;
+}
+.talk h2 {
+  padding-left: 5rem;
+}
+.Dave_Bryson p {
+  font-size: larger;
+}
